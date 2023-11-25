@@ -1,8 +1,14 @@
 <script setup lang="ts">
 	// const { gtag, grantConsent, revokeConsent } = useGtag();
 	useHead({
-		title: "Drulab.net",
-		meta: [{ name: "description", content: "Drulab.net - Tailored code solutions" }],
+		title: "Drulab.net - Tailored code for businesses",
+		meta: [
+			{
+				name: "description",
+				content:
+					"Drulab is Software development + Blockchain + AI + Web + Automation and more in general home to everything that's food for the mind.",
+			},
+		],
 		// bodyAttrs: {
 		// 	class: "test",
 		// },
@@ -35,6 +41,4 @@
 	</div>
 </template>
 
-<style scoped>
-	@import "~/assets/css/style-std.css";
-</style>
+<style scoped></style>

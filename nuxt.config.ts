@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 			],
 		},
 	},
-	// css: ["~/assets/css/style-std.css"],
+	css: ["~/assets/css/style-std.css"],
 	devtools: { enabled: true },
 	// modules: ["@dargmuesli/nuxt-cookie-control", "nuxt-gtag"],
 	// cookieControl: {

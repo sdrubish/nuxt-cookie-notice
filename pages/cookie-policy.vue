@@ -2,7 +2,13 @@
 	// const { gtag, grantConsent, revokeConsent } = useGtag();
 	useHead({
 		title: "Drulab.net - Cookie Policy",
-		meta: [{ name: "description", content: "Drulab.net - Tailored code solutions" }],
+		meta: [
+			{
+				name: "description",
+				content:
+					"Drulab is Software development + Blockchain + AI + Web + Automation and more in general home to everything that's food for the mind.",
+			},
+		],
 		// bodyAttrs: {
 		// 	class: "test",
 		// },
@@ -15,17 +21,6 @@
 
 <template>
 	<div class="druuu-1 druuu-main">
-		<style>
-			a.cky-banner-element {
-				padding: 8px 30px;
-				background: #f8f9fa;
-				color: #858a8f;
-				border: 1px solid #dee2e6;
-				box-sizing: border-box;
-				border-radius: 2px;
-				cursor: pointer;
-			}
-		</style>
 		<h1 class="cookie-policy-h1">Cookie Policy</h1>
 		<p>
 			Effective Date: 24-Nov-2023 <br />
@@ -112,5 +107,13 @@
 </template>
 
 <style scoped>
-	@import "~/assets/css/style-std.css";
+	a.cky-banner-element {
+		padding: 8px 30px;
+		background: #f8f9fa;
+		color: #858a8f;
+		border: 1px solid #dee2e6;
+		box-sizing: border-box;
+		border-radius: 2px;
+		cursor: pointer;
+	}
 </style>
