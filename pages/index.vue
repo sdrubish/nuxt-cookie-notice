@@ -1,5 +1,25 @@
 <script setup lang="ts">
 	// const { gtag, grantConsent, revokeConsent } = useGtag();
+	useHead({
+		title: "Drulab.net",
+		meta: [{ name: "description", content: "Drulab.net - Tailored code solutions" }],
+		// bodyAttrs: {
+		// 	class: "test",
+		// },
+		htmlAttrs: {
+			lang: "en",
+		},
+		// script: [{ innerHTML: "console.log('Hello world')" }],
+	});
+
+	useSeoMeta({
+		title: "Drulab.net - Tailored code for businesses",
+		// ogTitle: "My Amazing Site",
+		description: "Drulab.net - Tailored code for businesses",
+		// ogDescription: "This is my amazing site, let me tell you all about it.",
+		// ogImage: "https://example.com/image.png",
+		// twitterCard: "summary_large_image",
+	});
 </script>
 
 <template>
