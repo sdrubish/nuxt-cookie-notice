@@ -5,8 +5,7 @@
 		meta: [
 			{
 				name: "description",
-				content:
-					"Drulab is Software development + Blockchain + AI + Web + Automation and more in general home to everything that's food for the mind.",
+				content: "Drulab is Software development + Tailored coding + Blockchain + AI + Web + Business Automation",
 			},
 		],
 		// bodyAttrs: {
