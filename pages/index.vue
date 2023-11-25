@@ -15,4 +15,6 @@
 	</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+	@import "~/assets/css/style-std.css";
+</style>
