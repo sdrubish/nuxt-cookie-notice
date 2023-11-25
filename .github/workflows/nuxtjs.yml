@@ -49,6 +49,8 @@ jobs:
     deploy:
         environment:
             name: github-pages
+            # Works without this too, this will make the env show drulab instead of "pages"
+            url: ${{ steps.deployment.outputs.page_url }}
         runs-on: ubuntu-latest
         needs: build
         steps:
