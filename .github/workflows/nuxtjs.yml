@@ -41,6 +41,6 @@ jobs:
       - run: npm run generate
       - uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
-          BRANCH: gh-pages
+          BRANCH: main
           FOLDER: '.output/public'
           CLEAN: true
